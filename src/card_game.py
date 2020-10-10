@@ -23,5 +23,5 @@ class CardGame:
     total = 0
     for card in cards:
       total += card.value
-    return "You have a total of" + total
+    return f"You have a total of {total}"
 
