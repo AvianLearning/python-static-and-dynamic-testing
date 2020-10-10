@@ -11,13 +11,13 @@ class CardGame:
 
   def checkforAce(self, card): #Indentation error - should be in line with class declaration. checkforAce should be in snake_case
     if card.value = 1: #Should be == operator to check for equality. Indentation should be four spaces compared to def statement above.
-      return true
+      return true #True should start with capital T
     else #Missing : after else statement
-      return false
+      return false #False should start with capital F
 
   dif highest_card(self, card1 card2) #Should say def, not dif. Missing comma between card1 and card2. Variables should be in snake case, e.g. card_1 card_2. Indentation error of def statement again.
     if card1.value > card2.value #Should be idented two more spaces in relation to def statement above. Missing : at the end of if statement
-      return card
+      return card #Should be return card1
     else #Missing : after else statement
       return card2
  
